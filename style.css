@@ -307,6 +307,21 @@ html, body {
 .conteudo_quarto hr { border: 0; border-top: 1px solid var(--borda-suave); margin-bottom: 15px; }
 .q_pessoas { color: var(--cor-destaque); font-size: 13px; font-weight: 500; }
 
+.conteudo_quarto .btn_reserva_quarto {
+    padding: 10px;
+    background-color: var(--cor-destaque);
+    text-decoration: none;
+    color: black;
+    border-radius: 10px; 
+    transition: 0.5s;
+    font-weight: 100;
+}
+
+.conteudo_quarto .btn_reserva_quarto:hover {
+    background-color: var(--cor-destaque-hover);
+    transform: translateY(-5px);
+}
+
 /* --- EXPERIÊNCIA --- */
 .experiencia { margin: 100px auto; max-width: 1000px; padding: 0 20px; }
 .experiencia #h2sup { color: var(--cor-destaque); text-align: center; font-size: 22px; margin-bottom: 10px; }
@@ -464,6 +479,7 @@ footer { background-color: var(--fundo-card); border-top: 1px solid var(--borda-
     flex: 1;
     padding: 40px;
     text-align: left;
+    
 }
 
 .evento-unico-texto h2 {
@@ -565,6 +581,7 @@ footer { background-color: var(--fundo-card); border-top: 1px solid var(--borda-
     .art1 { flex-direction: column; text-align: center; }
     .art1foto img { width: 100%; }
     .conteudo_footer { flex-direction: column; text-align: center; }
+    .conteudo_footer .footer_esquerdo { margin: 0 auto;}
 }
 
 @media (max-width: 768px) {
