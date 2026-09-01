@@ -517,8 +517,9 @@ footer { background-color: var(--fundo-card); border-top: 1px solid var(--borda-
 
     .menu {
         padding: 20px 20px; /* Aumentado de 10px para 20px para dar mais altura ao menu */
-        position: relative;
+        position: fixed;
         min-height: 80px;
+
     }
 
     /* Centraliza a logo no topo do celular */
