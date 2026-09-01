@@ -605,6 +605,11 @@ footer { background-color: var(--fundo-card); border-top: 1px solid var(--borda-
     .art1foto img { width: 100%; }
     .conteudo_footer { flex-direction: column; text-align: center; }
     .conteudo_footer .footer_esquerdo { margin: 0 auto;}
+
+    .evento-unico-foto img {
+        height: 450px;
+
+    }
 }
 
 @media (max-width: 768px) {
