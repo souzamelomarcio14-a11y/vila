@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pousada Villa Montelle | Chalés & Suítes em Campos do Jordão</title>
+    
+    <!-- SEO & Redes Sociais -->
+    <meta name="description" content="Pousada de charme em Campos do Jordão com chalés, lareira individual, lençol elétrico e café da manhã artesanal. Reserve seu refúgio na serra!">
+    <meta name="geo.region" content="BR-SP">
+    <meta name="geo.placename" content="Campos do Jordão">
+    
+    <meta property="og:title" content="Pousada Villa Montelle | Chalés & Suítes">
+    <meta property="og:description" content="Chalés aconchegantes com lareira, vista para as montanhas e café da manhã em Campos do Jordão.">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=1200&q=80">
+    <meta property="og:type" content="website">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- CABEÇALHO FIXO -->
+    <header class="menu">        
+        <div class="logo">
+            <h1>VILLA MONTELLE<span>Chalés & Suítes</span></h1>
+        </div>
+
+        <!-- Botão Menu Hambúrguer (Mobile) -->
+        <button class="menu-toggle" id="menuToggle" aria-label="Abrir Menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+        <nav class="bto-menu" id="btoMenu">
+            <a href="#home" class="nav-link">Início</a>
+            <a href="#diferenciais_ancora" class="nav-link">Diferenciais</a>
+            <a href="#acomodacao_ancora" class="nav-link">Acomodações</a>
+            <a href="#experiencia_ancora" class="nav-link">Experiências</a>
+            <a href="#galeria_ancora" class="nav-link">Galeria</a>
+            <a href="#localizacao" class="nav-link">Localização</a>
+        </nav>
+
+        <div class="bto-reserva">
+            <a href="https://wa.me/5512999999999?text=Olá!%20Gostaria%20de%20consultar%20disponibilidade%20de%20reservas." target="_blank">Reservar Agora</a>
+        </div>
+    </header>
+
+    <main>
+        <!-- HERO SLIDER EM TELA INTEIRA (INTERATIVO COM JS) -->
+        <section class="hero-slider" id="home">
+            <div class="slide active" style="background-image: url('imagem/slide_1.jpeg');">
+                <div class="slide-content">
+                    <h2>REFÚGIO EM CAMPOS DO JORDÃO</h2>
+                    <h1>Sua experiência inesquecível na serra</h1>
+                    <p>Desacelere do ritmo urbano e venha respirar o ar puro das montanhas com máximo conforto.</p>
+                    <div class="ver_btn">
+                        <a href="#acomodacao_ancora" class="btn-amarelo">Ver Chalés</a>
+                        <a href="https://wa.me/5512999999999?text=Olá!%20Quero%20conhecer%20a%20pousada." target="_blank" class="btn-branco">Falar no WhatsApp</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="slide" style="background-image: url('imagem/slide_2.webp');">
+                <div class="slide-content">
+                    <h2>ACONCHEGO & PRIVACIDADE</h2>
+                    <h1>Lareira a lenha e cama aquecida</h1>
+                    <p>Noites quentinhas e inesquecíveis preparadas para o frio da montanha.</p>
+                    <div class="ver_btn">
+                        <a href="#acomodacao_ancora" class="btn-amarelo">Nossas Suítes</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="slide" style="background-image: url('imagem/slide_3.jpeg');">
+                <div class="slide-content">
+                    <h2>NATUREZA & TRANQUILIDADE</h2>
+                    <h1>Conecte-se com o ar puro da montanha</h1>
+                    <p>Ampla área verde e o cenário perfeito para renovar suas energias.</p>
+                    <div class="ver_btn">
+                        <a href="#experiencia_ancora" class="btn-amarelo">Saiba Mais</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Controles do Slider -->
+            <button class="slider-btn prev" id="prevBtn" aria-label="Anterior">&#10094;</button>
+            <button class="slider-btn next" id="nextBtn" aria-label="Próximo">&#10095;</button>
+
+            <!-- Pontos de Navegação -->
+            <div class="dots-container" id="dotsContainer"></div>
+        </section>
+
+        <!-- DIFERENCIAIS / SERVIÇOS -->
+        <section class="servico_geral" id="diferenciais_ancora">
+            <div class="servico-item">
+                <img src="imagem/icons8-fogo-100.png" alt="Lareira" onerror="this.src='https://img.icons8.com/ios-filled/100/c9a353/fire-element.png'">
+                <h2>Lareiras Individuais</h2>
+                <p>O calor da lenha nos dias frios para criar a atmosfera perfeita de descanso e romance em acomodações selecionadas.</p>
+            </div>
+
+            <div class="servico-item">
+                <img src="imagem/icons8-construção-de-café-100 (1).png" alt="Café da manhã" onerror="this.src='https://img.icons8.com/ios-filled/100/c9a353/cafe.png'">
+                <h2>Café da Manhã</h2>
+                <p>Servido diariamente até às 10:30h com pães fresquinhos, quitutes artesanais e sabores típicos da serra.</p>
+            </div>
+
+            <div class="servico-item">
+                <img src="imagem/icons8-wi-fi-100.png" alt="Wi-Fi" onerror="this.src='https://img.icons8.com/ios-filled/100/c9a353/wifi.png'">
+                <h2>WI-FI Starlink</h2>
+                <p>Conexão de altíssima velocidade para trabalhar ou navegar sem interrupções.</p> 
+            </div>
+
+            <div class="servico-item">
+                <img src="imagem/icons8-cama-100.png" alt="Cama aquecida" onerror="this.src='https://img.icons8.com/ios-filled/100/c9a353/bed.png'">
+                <h2>Lençol Elétrico</h2>
+                <p>Camas preparadas e aquecidas para garantir noites de sono quentinhas e relaxantes no frio da montanha.</p>
+            </div>
+        </section>
+
+        <!-- ACOMODAÇÕES -->
+        <section class="acomodacao" id="acomodacao_ancora">
+            <h2>Nossos Chalés & Suítes</h2>
+            <p id="textoacomodacao">Acomodações privativas equipadas para oferecer o máximo de conforto térmico e aconchego. Escolha o espaço ideal para sua viagem:</p>
+
+            <div class="foto_geral">
+                <!-- Chalé 01 -->
+                <div class="quarto">
+                    <div class="foto_quarto" style="background-image: url('imagem/chale1.jpg');"></div>
+                    <div class="conteudo_quarto">
+                        <h4>Chalé com lareira</h4>
+                        <h3>Chalé 01</h3>
+                        <p>Lareira / frigobar / cama aquecida / TV a cabo.</p>
+                        <hr>
+                        <p class="q_pessoas">Até 3 pessoas</p>
+                    </div>
+                </div>
+
+                <!-- Chalé 02 -->
+                <div class="quarto">
+                    <div class="foto_quarto" style="background-image: url('imagem/chale\ 2.jpg');"></div>
+                    <div class="conteudo_quarto">
+                        <h4>Chalé com varanda</h4>
+                        <h3>Chalé 02</h3>
+                        <p>Frigobar / cama aquecida / TV a cabo / Varanda.</p>
+                        <hr>
+                        <p class="q_pessoas">Até 3 pessoas</p>
+                    </div>
+                </div>
+
+                <!-- Suíte 03 -->
+                <div class="quarto">
+                    <div class="foto_quarto" style="background-image: url('imagem/quarto3.jpg');"></div>
+                    <div class="conteudo_quarto">
+                        <h4>Suíte Família</h4>
+                        <h3>Suíte 03</h3>
+                        <p>Frigobar / cama aquecida / TV a cabo.</p>
+                        <hr>
+                        <p class="q_pessoas">Até 5 pessoas</p>
+                    </div>
+                </div>
+
+                <!-- Suíte 04 -->
+                <div class="quarto">
+                    <div class="foto_quarto" style="background-image: url('imagem/quarto4.jpg');"></div>
+                    <div class="conteudo_quarto">
+                        <h4>Suíte com lareira</h4>
+                        <h3>Suíte 04</h3>
+                        <p>Lareira / frigobar / cama aquecida / TV a cabo.</p>
+                        <hr>
+                        <p class="q_pessoas">Até 6 pessoas</p>
+                    </div>
+                </div>
+
+                <!-- Chalé 05 -->
+                <div class="quarto">
+                    <div class="foto_quarto" style="background-image: url('imagem/quarto5.jpg');"></div>
+                    <div class="conteudo_quarto">
+                        <h4>Chalé com lareira</h4>
+                        <h3>Chalé 05</h3>
+                        <p>Lareira / frigobar / cama aquecida / TV a cabo.</p>
+                        <hr>
+                        <p class="q_pessoas">Até 3 pessoas</p>
+                    </div>
+                </div>
+
+                <!-- Suíte 06 -->
+                <div class="quarto">
+                    <div class="foto_quarto" style="background-image: url('imagem/quarto6.jpg');"></div>
+                    <div class="conteudo_quarto">
+                        <h4>Suíte com lareira</h4>
+                        <h3>Suíte 06</h3>
+                        <p>Lareira / frigobar / cama aquecida / TV a cabo.</p>
+                        <hr>
+                        <p class="q_pessoas">Até 2 pessoas</p>
+                    </div>
+                </div>
+
+                <!-- Suíte 07 -->
+                <div class="quarto">
+                    <div class="foto_quarto" style="background-image: url('imagem/quarto7.jpg');"></div>
+                    <div class="conteudo_quarto">
+                        <h4>Suíte com lareira</h4>
+                        <h3>Suíte 07</h3>
+                        <p>Lareira / frigobar / cama aquecida / TV a cabo.</p>
+                        <hr>
+                        <p class="q_pessoas">Até 3 pessoas</p>
+                    </div>
+                </div>
+
+                <!-- Suíte 09 -->
+                <div class="quarto">
+                    <div class="foto_quarto" style="background-image: url('imagem/quarto9.jpg');"></div>
+                    <div class="conteudo_quarto">
+                        <h4>Suíte Simples</h4>
+                        <h3>Suíte 09</h3>
+                        <p>Frigobar / cama aquecida / TV a cabo.</p>
+                        <hr>
+                        <p class="q_pessoas">Até 3 pessoas</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- EXPERIÊNCIA -->
+        <section class="experiencia" id="experiencia_ancora">
+            <h2 id="h2sup">Viva a Experiência da Serra</h2>
+            <p>Mais do que uma hospedagem, um verdadeiro refúgio natural.</p>
+            
+            <div class="art1">
+                <div class="art1foto">
+                    <img src="imagem/grid5.jpg" alt="Vista das montanhas da Pousada Villa Montelle">
+                </div>
+                
+                <div class="art1p">
+                    <h2>Conexão com a Natureza e o Ar Puro</h2>
+                    <p>A experiência na nossa pousada vai muito além das acomodações. Ao pisar do lado de fora, você é acolhido por uma ampla área externa, cercada por um gramado verdejante e o ar puro e revigorante da montanha. É o espaço perfeito para desacelerar: seja para caminhar descalço na grama ao amanhecer, ler um bom livro à sombra das árvores ou deixar as crianças brincarem com total liberdade.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- GALERIA (LIGHTBOX POPUP INTEGRADOC) -->
+        <section class="secao-galeria" id="galeria_ancora">
+            <h2>Galeria da Pousada</h2>
+            
+            <div class="galeria-grid">
+                <a href="#img1" class="item-galeria"><img src="imagem/grid1.jpg" alt="Fachada dos chalés"></a>
+                <a href="#img2" class="item-galeria"><img src="imagem/grid2.jpg" alt="Café da manhã artesanal"></a>
+                <a href="#img3" class="item-galeria"><img src="imagem/grid4.jpg" alt="Área externa com jardim"></a>
+                <a href="#img4" class="item-galeria"><img src="imagem/grid3.jpg" alt="Vista para a serra"></a>
+                <a href="#img5" class="item-galeria"><img src="imagem/grid5.jpg" alt="Pedra do Baú"></a>
+                <a href="#img6" class="item-galeria"><img src="imagem/grid11.jpg" alt="Por do Sol"></a>
+                <a href="#img7" class="item-galeria"><img src="imagem/grid6.jpg" alt="Decoração romantica quarto"></a>
+                <a href="#img8" class="item-galeria"><img src="imagem/grid9.jpg" alt="Chalé superior com varanda"></a>
+            </div>
+
+            <!-- POPUPS DA GALERIA -->
+            <div id="img1" class="lightbox"><a href="#fechar" class="fechar">&times;</a><img src="imagem/grid1.jpg" alt="Fachada dos chalés"></div>
+            <div id="img2" class="lightbox"><a href="#fechar" class="fechar">&times;</a><img src="imagem/grid2.jpg" alt="Café da manhã artesanal"></div>
+            <div id="img3" class="lightbox"><a href="#fechar" class="fechar">&times;</a><img src="imagem/grid4.jpg" alt="Área externa com jardim"></div>
+            <div id="img4" class="lightbox"><a href="#fechar" class="fechar">&times;</a><img src="imagem/grid3.jpg" alt="Vista para a serra"></div>
+            <div id="img5" class="lightbox"><a href="#fechar" class="fechar">&times;</a><img src="imagem/grid5.jpg" alt="Pedra do Baú"></div>
+            <div id="img6" class="lightbox"><a href="#fechar" class="fechar">&times;</a><img src="imagem/grid11.jpg" alt="Por do Sol"></div>
+            <div id="img7" class="lightbox"><a href="#fechar" class="fechar">&times;</a><img src="imagem/grid6.jpg" alt="Decoração romantica quarto"></div>
+            <div id="img8" class="lightbox"><a href="#fechar" class="fechar">&times;</a><img src="imagem/grid9.jpg" alt="Chalé superior com varanda"></div>
+        </section>
+
+        <!-- PONTOS TURÍSTICOS DA REGIÃO -->
+        <section class="secao-pontos-turisticos" id="turismo_ancora">
+            <h2>Passeios & Pontos Turísticos</h2>
+            <p>Explore as melhores atrações e paisagens de Campos do Jordão pertinho da pousada:</p>
+
+            <div class="grid-turisticos">
+                <!-- Ponto 1: Carde Museu -->
+                <div class="card-turistico">
+                    <div class="foto-turistico" style="background-image: url('imagem/carde.jpg');"></div>
+                    <div class="conteudo-turistico">
+                        <h3>Carde Museu</h3>
+                        <p class="distancia-pousada">📍 Aprox. 12 min de carro / 5.2 km</p>
+                        <p>Uma das atrações mais bonitas da cidade o (CARDÊ), carros, arte, design e educação se encontram para inspirar novas formas de compreender o passado e suas conexões com o presente.</p>
+                    </div>
+                </div>
+
+                <!-- Vale dos Dinosauros -->
+                <div class="card-turistico">
+                    <div class="foto-turistico" style="background-image: url('imagem/dinosauro.webp');"></div>
+                    <div class="conteudo-turistico">
+                        <h3>Vale dos Dinosauros</h3>
+                        <p class="distancia-pousada">📍 Aprox. 05 min de carro / 1.5 km</p>
+                        <p>Uma incrível expedição pré-histórica para toda a família. O parque indoor conta com réplicas gigantes animatrônicas de dinossauros em tamanho real, que se movimentam e rugem em cenários imersivos.</p>
+                    </div>
+                </div>
+
+                <!-- Ponto 3: Restaurantes -->
+                <div class="card-turistico">
+                    <div class="foto-turistico" style="background-image: url('imagem/vechia.jpg');"></div>
+                    <div class="conteudo-turistico">
+                        <h3>Restaurantes</h3>
+                        <p class="distancia-pousada">📍 Aprox. 03 min de carro / 0.8 km </p>.
+                        <p>Pertinho de nós, os renomados restaurantes Vecchia e Rizzonte oferecem uma experiência única: culinária refinada acompanhada por um visual deslumbrante da Mantiqueira. Uma parada obrigatória para quem busca sabor e paisagens inesquecíveis.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Ponto 4: Vinicula -->
+                <div class="card-turistico">
+                    <div class="foto-turistico" style="background-image: url('imagem/vinicula.webp');"></div>
+                    <div class="conteudo-turistico">
+                        <h3>Vinícola Villa Santa Maria</h3>
+                        <p class="distancia-pousada">📍 Aprox. 23 min de carro / 8.5 km</p>
+                        <p>Localizada no charmoso Vale do Baú, em São Bento do Sapucaí e a poucos minutos de Campos do Jordão, a Vinícola Villa Santa Maria convida você a vivenciar uma imersão inesquecível no universo dos vinhos finos de inverno.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+<!-- SEÇÃO DE EVENTOS & CELEBRAÇÕES (BANNER ÚNICO) -->
+        <section class="secao-evento-unico" id="eventos_ancora">
+            <div class="evento-unico-card">
+                <div class="evento-unico-foto">
+                    <img src="imagem/salao.jpg" alt="Espaço para eventos na Pousada Villa Montelle">
+                </div>
+
+                <div class="evento-unico-texto">
+                    <h2>CELEBRE NO NOSSO REFÚGIO</h2>
+                    <h1>Eventos Empresariais, Festas & Casamentos</h1>
+                    <p>Proporcione momentos inesquecíveis em meio à natureza de Campos do Jordão. Oferecemos estrutura completa e total privacidade para casamentos ao ar livre, encontros corporativos, imersões e celebrações privativas.</p>
+                    
+                    <div class="evento-unico-btn">
+                        <a href="https://wa.me/5512999999999?text=Olá!%20Gostaria%20de%20informações%20e%20orçamento%20para%20um%20evento%20na%20Villa%20Montelle." target="_blank" class="btn-amarelo">Solicitar Orçamento no WhatsApp</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- MAPA DE LOCALIZAÇÃO -->
+        <section id="localizacao" class="secao-mapa">
+            <h2>Como Chegar</h2>
+            <p>Estamos localizados nas alturas da serra em Campos do Jordão</p>
+
+            <div class="mapa-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3679.633451790509!2d-45.6419766!3d-22.7418616!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cc7a36025686cb%3A0x8674ec10f01a084e!2sCampos%20do%20Jord%C3%A3o%20-%20SP!5e0!3m2!1spt-BR!2sbr!4v1700000000000!5m2!1spt-BR!2sbr" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+            </div>
+        </section>
+    </main>
+
+    <!-- RODAPÉ -->
+    <footer>
+        <div class="conteudo_footer">
+            <div class="footer_esquerdo">
+                <h2>Villa Montelle | Chalés & Suítes</h2>
+                <p>Sua acomodação de serra preferida para conectar-se com a natureza e relaxar com máximo conforto em Campos do Jordão.</p>
+            </div>
+
+            <div class="footer_direita">
+                <h3>Contato & Localização</h3>
+                <p>Loteamento Jardim Imperial, Rua Alameda Lucerna, 130 - Campos do Jordão/SP</p>
+                <p>WhatsApp: (12) 99757-8080</p>
+                <p>E-mail: contato@vilamontelle.com.br</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- BOTÃO FLUTUANTE WHATSAPP -->
+    <a href="https://wa.me/5512999999999?text=Olá!%20Gostaria%20de%20informações%20sobre%20reservas!" class="btn-whatsapp" target="_blank" aria-label="Contato via WhatsApp">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp"> 
+    </a>
+
+    <!-- SCRIPT JS -->
+    <script src="script.js"></script>
+</body>
+</html>
