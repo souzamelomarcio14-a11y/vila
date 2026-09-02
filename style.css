@@ -45,7 +45,7 @@ html, body {
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid var(--borda-suave);
-    padding: 15px 40px;
+    padding: 0px 40px;
     position: fixed;
     top: 0;
     left: 0;
@@ -156,15 +156,16 @@ html, body {
 }
 
 .slide-content h2 {
-    color: var(--cor-destaque);
+    color: var(--texto-claro);
     font-family: 'Cinzel', serif;
     font-size: 13px;
     letter-spacing: 3px;
-    border: 1px solid var(--cor-destaque);
+    border: 1px solid var(--texto-claro);
     display: inline-block;
     padding: 8px 16px;
     border-radius: 20px;
     margin-bottom: 20px;
+    background-color: rgba(0, 0, 0, 0.185);
 }
 
 .slide-content h1 {
