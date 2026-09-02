@@ -45,7 +45,7 @@ html, body {
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid var(--borda-suave);
-    padding: 5px 40px;
+    padding: 8px 40px;
     position: fixed;
     top: 0;
     left: 0;
